@@ -21,6 +21,7 @@ namespace HouseConsole
             Hus2.Navn = "Murstenshus"; //sætter Navn på Hus2 til værdien "Murstenshus"
 
             Console.WriteLine("Adresse: {0} ",Hus2.GetAdresse()); // Kalder metoden GetAdresse() på objektet/instansen Hus2 og printer resultatet ud til konsollen
+            Console.ReadLine();
 
         }
     }
